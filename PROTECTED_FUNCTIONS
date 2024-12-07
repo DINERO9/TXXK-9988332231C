@@ -93,4 +93,4 @@ getgenv()["SETTABLE"].returnsecured = function()
          return error
     end
 end
-print(getgenv()["SETTABLE"].returnsecured())
+return getgenv()["SETTABLE"]
