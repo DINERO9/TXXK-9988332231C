@@ -1,4 +1,4 @@
-getgenv().Translate = "Chinese"
+getgenv().Translate = "Russian"
 getgenv().translation = {
     ["TABS"] = {
         ["Main"] = function()
@@ -7,7 +7,7 @@ getgenv().translation = {
                 return "主菜单"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Главная"
             else
                 return "Main"
             end
@@ -18,7 +18,7 @@ getgenv().translation = {
                 return "玩家"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Игроки"
             else
                 return "Players"
             end
@@ -29,7 +29,7 @@ getgenv().translation = {
                 return "危險"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Рискованно"
             else
                 return "Risky"
             end
@@ -40,7 +40,7 @@ getgenv().translation = {
                 return "魔法"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Магия"
             else
                 return "Magick"
             end
@@ -51,7 +51,7 @@ getgenv().translation = {
                 return "现金"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Деньги"
             else
                 return "Cash"
             end
@@ -62,7 +62,7 @@ getgenv().translation = {
                 return "物品农场"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Фарм Предметов"
             else
                 return "ItemFarm"
             end
@@ -73,7 +73,7 @@ getgenv().translation = {
                 return "购买"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Купить"
             else
                 return "Buy"
             end
@@ -84,7 +84,7 @@ getgenv().translation = {
                 return "传送"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Телепорты"
             else
                 return "Teleport"
             end
@@ -95,7 +95,7 @@ getgenv().translation = {
                 return "视觉效果"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Визуал"
             else
                 return "Visuals"
             end
@@ -106,7 +106,7 @@ getgenv().translation = {
                 return "其他"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Другое"
             else
                 return "Other"
             end
@@ -117,7 +117,7 @@ getgenv().translation = {
                 return "测试"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Тест"
             else
                 return "Testing"
             end
@@ -141,7 +141,7 @@ getgenv().translation = {
                 return "TP步行"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "ТП Ходьба"
             else
                 return "TPWalk"
             end
@@ -163,7 +163,7 @@ getgenv().translation = {
                 return "速度"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Скорость ТП Ходьбы"
             else
                 return "TPWalk Speed"
             end
@@ -174,7 +174,7 @@ getgenv().translation = {
                 return "自瞄范围"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Аим Ассист"
             else
                 return "AimAssist"
             end
@@ -185,7 +185,7 @@ getgenv().translation = {
                 return "咖啡速度"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Скорость Кофе"
             else
                 return "Coffee Speed"
             end
@@ -196,7 +196,7 @@ getgenv().translation = {
                 return "视角范围"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Поле Зрения"
             else
                 return "FOV"
             end
@@ -207,9 +207,20 @@ getgenv().translation = {
                 return "跳跃高度"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Силы Прыжка"
             else
-                return "Jump Power"
+                return "JumpPower"
+            end
+        end,
+        ["Use JumpPower"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "使用跳跃高度"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return "Использовать Силу Прыжка"
+            else
+                return "Use JumpPower"
             end
         end,
         ["Infinite Jump"] = function()
@@ -218,7 +229,7 @@ getgenv().translation = {
                 return "无限跳跃"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Бесконечные Прыжки"
             else
                 return "Infinite Jump"
             end
@@ -229,7 +240,7 @@ getgenv().translation = {
                 return "自动带口罩"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Авто Маска"
             else
                 return "Auto Mask"
             end
@@ -240,7 +251,7 @@ getgenv().translation = {
                 return "隐身"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Невидимость"
             else
                 return "Invisible"
             end
@@ -251,7 +262,7 @@ getgenv().translation = {
                 return "装扮成小丑"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Шапка Клоуна"
             else
                 return "Clown Hat"
             end
@@ -262,7 +273,7 @@ getgenv().translation = {
                 return "装扮成警察"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Полицейская униформа"
             else
                 return "Police Uniform"
             end
@@ -273,7 +284,7 @@ getgenv().translation = {
                 return "动作"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Анимации"
             else
                 return "Animations"
             end
@@ -495,7 +506,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return "Kill Aura While Knocked"
+                return "Kill While Knocked"
             end
         end,
         ["Super Punch"] = function()
@@ -589,7 +600,7 @@ getgenv().translation = {
         ["Anti Stun"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "防打晕"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
@@ -630,26 +641,26 @@ getgenv().translation = {
                 return "Destroy Nearest Vehicle [Fists]"
             end
         end,
-        [""] = function()
+        ["HitPart"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "击打范围"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "HitPart"
             end
         end,
-        [""] = function()
+        ["SpammerMde"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "选择模式"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Spammer Mode"
             end
         end,
         [""] = function()
@@ -1273,10 +1284,10 @@ getgenv().translation = {
                         return "meleepunch"
                     end
                 end,
-                ["meleemegapunch"] = function()
-                    if getgenv().Translate 
-                    and getgenv().Translate == "Chinese" then
-                        return "近战重拳"
+                ["meleemegapunch"] = function(s)
+                    if getgenv().Translate == "Chinese"
+                    and s == "近战重拳" then
+                        return "meleemegapunch"
                     elseif getgenv().Translate 
                     and getgenv().Translate == "Russian" then
                         return ""
