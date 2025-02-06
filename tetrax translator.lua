@@ -1,4 +1,4 @@
-getgenv = {}
+
 getgenv().Translate = "Chinese"
 getgenv().translation = {
     ["TABS"] = {
