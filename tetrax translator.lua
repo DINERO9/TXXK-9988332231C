@@ -1227,6 +1227,30 @@ getgenv().translation = {
     },
     ["Other Strings"] = {
         ["dropdowns"] = {
+            ["TPWalk Modes"] = {
+                ["MoveDirection"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "移动方向"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "MoveDirection"
+                    end
+                end,
+                ["LookVector"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "照相机看的方向"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "Camera LookVector"
+                    end
+                end,
+            },
             ["killmodes"] = {
                 ["All"] = function()
                     if getgenv().Translate 
