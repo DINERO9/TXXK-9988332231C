@@ -1,4 +1,3 @@
-
 getgenv().Translate = "Chinese"
 getgenv().translation = {
     ["TABS"] = {
@@ -210,7 +209,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return "JumpPower"
+                return "Jump Power"
             end
         end,
         ["Infinite Jump"] = function()
@@ -400,7 +399,7 @@ getgenv().translation = {
                 return "Loopbring"
             end
         end,
-        ["Select Mode"] = function()
+        ["Select Mode1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "选择模式"
@@ -466,61 +465,6 @@ getgenv().translation = {
                 return "Damage Type"
             end
         end,
-        ["meleemegapunch"] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return "近战重拳"
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return "meleemegapunch"
-            end
-        end,
-        ["meleepunch"] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return "近身拳击"
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return "meleepunch"
-            end
-        end,
-        ["meleejumpKick"] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return "近战跳跃踢"
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return "meleejumpKick"
-            end
-        end,
-        ["meleekick"] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return "近身踢"
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return "meleekick"
-            end
-        end,
-        ["meleemegaswing"] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return ""
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return "meleemegaswing"
-            end
-        end,
         [""] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
@@ -620,8 +564,69 @@ getgenv().translation = {
                 return "TPWalk Speed"
             end
         end,
+    },
+    ["Other Strings"] = {
+        ["dropdowns"] = {
+            ["killpositions"] = {},
+            ["dmgmodes"] = {
+                ["meleepunch"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "近身拳击"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "meleepunch"
+                    end
+                end,
+                ["meleemegapunch"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "近战重拳"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "meleemegapunch"
+                    end
+                end,
+                ["meleejumpKick"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "近战跳跃踢"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "meleejumpKick"
+                    end
+                end,
+                ["meleekick"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "近身踢"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "meleekick"
+                    end
+                end,
+                ["meleemegaswing"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return ""
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "meleemegaswing"
+                    end
+                end,
+            }
+        } 
     }
 }
-
 
 
