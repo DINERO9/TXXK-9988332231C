@@ -1,4 +1,4 @@
-getgenv().Translate = "Russian"
+getgenv().Translate = "Chinese"
 getgenv().translation = {
     ["TABS"] = {
         ["Main"] = function()
@@ -295,31 +295,9 @@ getgenv().translation = {
                 return "击杀位置"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Килл Позиция"
             else
                 return "Kill Position"
-            end
-        end,
-        ["hidden"] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return "隐藏"
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return "hidden"
-            end
-        end,
-        ["unhidden"] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return "取消隐藏"
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return "unhidden"
             end
         end,
         ["Select Player1"] = function()
@@ -328,7 +306,7 @@ getgenv().translation = {
                 return "选择玩家"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Выбрать Игрока"
             else
                 return "Select Player"
             end
@@ -339,7 +317,7 @@ getgenv().translation = {
                 return "传送到被选择玩家"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "ТП"
             else
                 return "TP"
             end
@@ -350,7 +328,7 @@ getgenv().translation = {
                 return "旁观玩家"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Наблюдать За Игроков"
             else
                 return "Spectate Player"
             end
@@ -361,7 +339,7 @@ getgenv().translation = {
                 return "自动传送"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Авто ТП"
             else
                 return "Auto TP"
             end
@@ -372,7 +350,7 @@ getgenv().translation = {
                 return "自动击杀"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Авто Килл"
             else
                 return "Auto Kill"
             end
@@ -383,7 +361,7 @@ getgenv().translation = {
                 return "Z位置"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Z Позиция"
             else
                 return "Z Position"
             end
@@ -394,7 +372,7 @@ getgenv().translation = {
                 return "Y位置"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Y Позиция"
             else
                 return "Y Position"
             end
@@ -405,7 +383,7 @@ getgenv().translation = {
                 return "循环带来玩家"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Притягивание Игрока [Клиент]"
             else
                 return "Loopbring"
             end
@@ -416,31 +394,9 @@ getgenv().translation = {
                 return "选择模式"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Выбрать Опцию"
             else
                 return "Select Mode"
-            end
-        end,
-        ["All"] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return "所有"
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return "All"
-            end
-        end,
-        ["Nearest"] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return "最近"
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return "Nearest"
             end
         end,
         ["Auto Kill Players"] = function()
@@ -449,7 +405,7 @@ getgenv().translation = {
                 return "自动杀死玩家"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Авто Килл Игроков"
             else
                 return "Auto Kill Players"
             end
@@ -460,7 +416,7 @@ getgenv().translation = {
                 return "间隔"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Дистанция"
             else
                 return "Distance"
             end
@@ -471,7 +427,7 @@ getgenv().translation = {
                 return "伤害类型"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Тип урона"
             else
                 return "Damage Type"
             end
@@ -482,7 +438,7 @@ getgenv().translation = {
                 return "杀戮光环"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Килл аура"
             else
                 return "Kill Aura"
             end
@@ -493,7 +449,7 @@ getgenv().translation = {
                 return "距离"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Дистанция"
             else
                 return "Distance"
             end
@@ -504,7 +460,7 @@ getgenv().translation = {
                 return "被击倒时有击杀光环"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Килл Аура Когда Кнокнутый"
             else
                 return "Kill While Knocked"
             end
@@ -515,7 +471,7 @@ getgenv().translation = {
                 return "超级冲击"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Мега Удар"
             else
                 return "Super Punch"
             end
@@ -526,7 +482,7 @@ getgenv().translation = {
                 return "杀死光环"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Стомп Аура"
             else
                 return "Stomp Aura"
             end
@@ -537,7 +493,7 @@ getgenv().translation = {
                 return "抓住光环"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Граб аура"
             else
                 return "Grab Aura"
             end
@@ -548,7 +504,7 @@ getgenv().translation = {
                 return "选择模式"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Выберете режим"
             else
                 return "Select Mode"
             end
@@ -559,7 +515,7 @@ getgenv().translation = {
                 return "选择玩家"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Выберете Игрока"
             else
                 return "Select Player"
             end
@@ -570,7 +526,7 @@ getgenv().translation = {
                 return "轰炸内容"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Спам Сообщение"
             else
                 return "Spam Message"
             end
@@ -581,7 +537,7 @@ getgenv().translation = {
                 return "电话轰炸"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Спам Звонков/СМС"
             else
                 return "Spam Call/Msg"
             end
@@ -592,7 +548,7 @@ getgenv().translation = {
                 return "防抓住"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Анти Граб"
             else
                 return "Anti Grab"
             end
@@ -603,7 +559,7 @@ getgenv().translation = {
                 return "防打晕"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Анти Стан"
             else
                 return "Anti Stun"
             end
@@ -614,7 +570,7 @@ getgenv().translation = {
                 return "防布娃娃"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Анти Рагдолл"
             else
                 return "Anti Ragdoll"
             end
@@ -625,7 +581,7 @@ getgenv().translation = {
                 return "自动隐藏"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Силент Блок"
             else
                 return "Silent Block"
             end
@@ -636,7 +592,7 @@ getgenv().translation = {
                 return "摧毁最近的车辆"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Уничтожение Ближайшего Транспорта [Руками]"
             else
                 return "Destroy Nearest Vehicle [Fists]"
             end
@@ -647,7 +603,7 @@ getgenv().translation = {
                 return "击打范围"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "ХитПарт"
             else
                 return "HitPart"
             end
@@ -658,7 +614,7 @@ getgenv().translation = {
                 return "选择模式"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
-                return ""
+                return "Спаммер Мод"
             else
                 return "Spammer Mode"
             end
@@ -1271,7 +1227,54 @@ getgenv().translation = {
     },
     ["Other Strings"] = {
         ["dropdowns"] = {
-            ["killpositions"] = {},
+            ["killmodes"] = {
+                ["All"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "所有"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "All"
+                    end
+                end,
+                ["Nearest"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "最近"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "Nearest"
+                    end
+                end,
+            },
+            ["killpositions"] = {
+                ["hidden"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "隐藏"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "hidden"
+                    end
+                end,
+                ["unhidden"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "取消隐藏"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "unhidden"
+                    end
+                end,
+            },
             ["dmgmodes"] = {
                 ["meleepunch"] = function()
                     if getgenv().Translate 
