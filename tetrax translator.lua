@@ -443,7 +443,7 @@ getgenv().translation = {
                 return "Auto Kill Players"
             end
         end,
-        ["Distance"] = function()
+        ["Distance 1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "间隔"
@@ -465,7 +465,7 @@ getgenv().translation = {
                 return "Damage Type"
             end
         end,
-        [""] = function()
+        ["Kill Aura"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return ""
@@ -473,73 +473,73 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return "TPWalk Speed"
+                return "Kill Aura"
             end
         end,
-        [""] = function()
+        ["Distance 2"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "距离"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return "TPWalk Speed"
+                return "Distance"
             end
         end,
-        [""] = function()
+        ["killWKnocked"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "被击倒时有击杀光环"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return "TPWalk Speed"
+                return "Kill Aura While Knocked"
             end
         end,
-        [""] = function()
+        ["Super Punch"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "超级冲击"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return "TPWalk Speed"
+                return "Super Punch"
             end
         end,
-        [""] = function()
+        ["Stomp Aura"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "杀死光环"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return "TPWalk Speed"
+                return "Stomp Aura"
             end
         end,
-        [""] = function()
+        ["Grab Aura"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "抓住光环"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return "TPWalk Speed"
+                return "Grab Aura"
             end
         end,
-        [""] = function()
+        ["Select Mode2"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "选择模式"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return "TPWalk Speed"
+                return "Select Mode"
             end
         end,
         [""] = function()
