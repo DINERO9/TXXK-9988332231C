@@ -625,10 +625,3 @@ getgenv().translation = {
 
 
 
-for l,v in next,translation.Elements do
-    if type(v) == "function" then
-        print(v())
-    end
-end
-
-
