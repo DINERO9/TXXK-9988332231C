@@ -311,7 +311,7 @@ getgenv().translation = {
                 return "unhidden"
             end
         end,
-        ["Select Player"] = function()
+        ["Select Player1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "选择玩家"
@@ -468,7 +468,7 @@ getgenv().translation = {
         ["Kill Aura"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "杀戮光环"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
@@ -542,7 +542,51 @@ getgenv().translation = {
                 return "Select Mode"
             end
         end,
-        [""] = function()
+        ["Select Player2"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "选择玩家"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Select Player"
+            end
+        end,
+        ["Spam Message"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "轰炸内容"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Spam Message"
+            end
+        end,
+        ["Spam Messag&Call"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "电话轰炸"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Spam Call/Msg"
+            end
+        end,
+        ["Anti Grab"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "防抓住"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Anti Grab"
+            end
+        end,
+        ["Anti Stun"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return ""
@@ -550,7 +594,40 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return "TPWalk Speed"
+                return "Anti Stun"
+            end
+        end,
+        ["Anti Ragdoll"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "防布娃娃"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Anti Ragdoll"
+            end
+        end,
+        ["Silent Block"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "自动隐藏"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Silent Block"
+            end
+        end,
+        ["DestroyVeh"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "摧毁最近的车辆"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Destroy Nearest Vehicle [Fists]"
             end
         end,
         [""] = function()
@@ -561,7 +638,623 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return "TPWalk Speed"
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        [""] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return ""
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
             end
         end,
     },
