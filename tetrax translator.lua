@@ -1274,6 +1274,17 @@ getgenv().translation = {
                         return "unhidden"
                     end
                 end,
+                ["custom"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return ""
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "custom"
+                    end
+                end,
             },
             ["dmgmodes"] = {
                 ["meleepunch"] = function()
