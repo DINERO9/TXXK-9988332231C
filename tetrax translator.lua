@@ -1499,7 +1499,7 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
-                    return ""
+                    return "no stun"
                 end
             end,
             ["Anti Grab Desc"] = function()
@@ -1510,7 +1510,7 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
-                    return ""
+                    return "auto drops when grabbed"
                 end
             end,
             ["Anti Ragdoll Desc"] = function()
@@ -1521,7 +1521,7 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
-                    return ""
+                    return "no ragdoll"
                 end
             end,
             ["Spam Messag/Call Desc"] = function()
@@ -1532,10 +1532,10 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
-                    return ""
+                    return "spam calls & message"
                 end
             end,
-            ["Spam Message Desc"] = function()
+            ["msgspamdesc"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1543,18 +1543,7 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
-                    return ""
-                end
-            end,
-            ["Select Player2 Desc"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return ""
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return ""
+                    return "message to spam or random"
                 end
             end,
             ["Select Mode2 Desc"] = function()
@@ -1565,7 +1554,7 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
-                    return ""
+                    return "mode for phone spammer"
                 end
             end,
             ["OPSDESC"] = function()
@@ -1601,7 +1590,7 @@ getgenv().translation = {
                     return "Main"
                 end
             end,
-            [""] = function()
+            ["dmgtypedesc"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1609,7 +1598,7 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
-                    return ""
+                    return "kill aura type"
                 end
             end,
             [""] = function()
