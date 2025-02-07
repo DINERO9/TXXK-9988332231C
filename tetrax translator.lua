@@ -1370,7 +1370,7 @@ getgenv().translation = {
                     return "changes animation"
                 end
             end,
-            [""] = function()
+            ["Kill Pos Desc"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1378,10 +1378,10 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
-                    return ""
+                    return "selects kill position"
                 end
             end,
-            [""] = function()
+            ["TP Desc"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1389,10 +1389,10 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
-                    return ""
+                    return "teleport to selected player"
                 end
             end,
-            [""] = function()
+            ["Spectate Desc"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1400,10 +1400,10 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
-                    return ""
+                    return "spectates"
                 end
             end,
-            [""] = function()
+            ["Select Player Desc"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1411,10 +1411,10 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
-                    return ""
+                    return "select"
                 end
             end,
-            [""] = function()
+            ["Kill Plr Desc"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1422,10 +1422,10 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
-                    return ""
+                    return "kills selected player"
                 end
             end,
-            [""] = function()
+            ["Bring Plr Desc"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1433,10 +1433,10 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
-                    return ""
+                    return "brings player"
                 end
             end,
-            [""] = function()
+            ["Kill Mode Desc"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1444,7 +1444,18 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
+                    return "selects kill mode"
+                end
+            end,
+            ["AK Players Desc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
                     return ""
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "auto kills all or nearest"
                 end
             end,
         },
