@@ -1381,6 +1381,17 @@ getgenv().translation = {
                     return "selects kill position"
                 end
             end,
+            ["Stomp Aura Desc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return ""
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "activate to auto stomp nearest"
+                end
+            end,
             ["TP Desc"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
