@@ -1226,6 +1226,140 @@ getgenv().translation = {
         end,
     },
     ["Other Strings"] = {
+        ["desc/sec"] = {
+            ["Player Settings"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "玩家设置"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Player Settings"
+                end
+            end,
+            ["Clothing & Anim"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "服装和动画"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Clothing & Animations"
+                end
+            end,
+            ["Player Teleport"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "玩家传送"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Player Teleport"
+                end
+            end,
+            ["Player Bring"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "带来玩家"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Player Bring"
+                end
+            end,
+            ["Players Kill"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "击杀玩家"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Players Kill"
+                end
+            end,
+            ["Aura Settings"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "伤害类型与其他类型不同 例如 如果您想用刀使用杀戮光环 您应该使用近战巨擘挥击或近战攻击"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Damage types are different than others for example if you want to use kill aura with a knife you would use meleemegaswing or meleeswing"
+                end
+            end,
+            ["Aura Settings Title"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "光环设置"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Aura Settings"
+                end
+            end,
+            ["Phone Spammer"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "电话垃圾邮件发送者"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Phone Spammer"
+                end
+            end,
+            ["Other Settings Title"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "其他设置"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Other Settings"
+                end
+            end,
+            ["Other Settings"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "当开启自动隐藏后 手动踩踏不会有用 防抓住在自动抓取里不会有用"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "manual stomps do not work while silent block is activated and anti grab doesnt work on auto grabbers"
+                end
+            end,
+            [""] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return ""
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return ""
+                end
+            end,
+            [""] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return ""
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return ""
+                end
+            end,
+        },
         ["dropdowns"] = {
             ["TPWalk Modes"] = {
                 ["MoveDirection"] = function()
