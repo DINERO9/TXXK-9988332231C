@@ -765,7 +765,7 @@ getgenv().translation = {
         ["FarmMode"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "农场模式"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
@@ -776,7 +776,7 @@ getgenv().translation = {
         ["ATMFarmPos"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "ATM 农场位置"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
@@ -787,7 +787,7 @@ getgenv().translation = {
         ["ATMREG"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "ATM/收银机农场"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
@@ -798,7 +798,7 @@ getgenv().translation = {
         ["bank"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "银行农场"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
@@ -809,7 +809,7 @@ getgenv().translation = {
         ["cshfarm"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "现金农场"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
@@ -820,7 +820,7 @@ getgenv().translation = {
         ["slotfarm"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "娃娃机农场"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
@@ -831,7 +831,7 @@ getgenv().translation = {
         ["jewlfarmmode"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "珠宝店农场模式"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
@@ -842,7 +842,7 @@ getgenv().translation = {
         ["jewlfarm"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "珠宝农场"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
@@ -853,7 +853,7 @@ getgenv().translation = {
         ["treasurefarm"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "宝藏农场"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
@@ -864,7 +864,7 @@ getgenv().translation = {
         ["dbellfarm"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "哑铃农场"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
@@ -872,7 +872,106 @@ getgenv().translation = {
                 return ""
             end
         end,
-        [""] = function()
+        ["onearest"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "开启最近的任何东西"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        ["sellmode"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "销售模式"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        ["bmsell"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "黑市出售"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        ["iaura"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "物品光环"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        ["caura"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "现金光环"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        ["ctruckcash"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "收取运钞车的现金"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        ["dnATM"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "摧毁最近的 ATM"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        ["ACInv"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "自动清理垃圾库存"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        ["dlitems"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "自动删除锁定的项目"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return ""
+            end
+        end,
+        ["treasureitems"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return ""
@@ -883,7 +982,7 @@ getgenv().translation = {
                 return ""
             end
         end,
-        [""] = function()
+        ["compbox"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return ""
@@ -894,7 +993,7 @@ getgenv().translation = {
                 return ""
             end
         end,
-        [""] = function()
+        ["mprinter"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return ""
@@ -905,7 +1004,7 @@ getgenv().translation = {
                 return ""
             end
         end,
-        [""] = function()
+        ["gguns"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return ""
@@ -916,7 +1015,7 @@ getgenv().translation = {
                 return ""
             end
         end,
-        [""] = function()
+        ["presnluck"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return ""
@@ -927,7 +1026,7 @@ getgenv().translation = {
                 return ""
             end
         end,
-        [""] = function()
+        ["rgems"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return ""
@@ -938,7 +1037,7 @@ getgenv().translation = {
                 return ""
             end
         end,
-        [""] = function()
+        ["rareitems"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return ""
@@ -949,7 +1048,7 @@ getgenv().translation = {
                 return ""
             end
         end,
-        [""] = function()
+        ["rcard"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return ""
@@ -960,106 +1059,7 @@ getgenv().translation = {
                 return ""
             end
         end,
-        [""] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return ""
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return ""
-            end
-        end,
-        [""] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return ""
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return ""
-            end
-        end,
-        [""] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return ""
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return ""
-            end
-        end,
-        [""] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return ""
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return ""
-            end
-        end,
-        [""] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return ""
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return ""
-            end
-        end,
-        [""] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return ""
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return ""
-            end
-        end,
-        [""] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return ""
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return ""
-            end
-        end,
-        [""] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return ""
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return ""
-            end
-        end,
-        [""] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
-                return ""
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return ""
-            end
-        end,
-        [""] = function()
+        ["bcard"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return ""
@@ -1744,10 +1744,10 @@ getgenv().translation = {
                         return "meleepunch"
                     end
                 end,
-                ["meleemegapunch"] = function(s)
-                    if getgenv().Translate == "Chinese"
-                    and s == "近战重拳" then
-                        return "meleemegapunch"
+                ["meleemegapunch"] = function()
+                    if getgenv().Translate
+                    and getgenv().Translate == "Chinese" then
+                        return "近战重拳"
                     elseif getgenv().Translate 
                     and getgenv().Translate == "Russian" then
                         return ""
@@ -1791,7 +1791,7 @@ getgenv().translation = {
                 ["meleemegaswing"] = function()
                     if getgenv().Translate 
                     and getgenv().Translate == "Chinese" then
-                        return ""
+                        return "近战巨擘挥击"
                     elseif getgenv().Translate 
                     and getgenv().Translate == "Russian" then
                         return ""
