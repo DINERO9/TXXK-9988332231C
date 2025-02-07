@@ -1337,6 +1337,94 @@ getgenv().translation = {
                     return "manual stomps do not work while silent block is activated and anti grab doesnt work on auto grabbers"
                 end
             end,
+            ["TPWalk Desc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "更改 TP步行模式"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Changes TPWalk Mode"
+                end
+            end,
+            ["Invis Desc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "也可以用键盘 [X] 键开启"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "ativates invisible keybind [X] now supports infinite jump"
+                end
+            end,
+            ["Anim Desc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "更改动作"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "changes animation"
+                end
+            end,
+            [""] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return ""
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return ""
+                end
+            end,
+            [""] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return ""
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return ""
+                end
+            end,
+            [""] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return ""
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return ""
+                end
+            end,
+            [""] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return ""
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return ""
+                end
+            end,
+            [""] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return ""
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return ""
+                end
+            end,
             [""] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
