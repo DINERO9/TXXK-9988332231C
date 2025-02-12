@@ -627,7 +627,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Select Player"
             end
         end,
         ["Silent Bullet"] = function()
@@ -638,7 +638,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Silent Bullet"
             end
         end,
         ["FOV CV"] = function()
@@ -649,7 +649,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "FOV Circle Visible"
             end
         end,
         ["FOV RAD"] = function()
@@ -660,7 +660,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "FOV Radius"
             end
         end,
         ["FOV CC"] = function()
@@ -671,7 +671,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "FOV Circle Color"
             end
         end,
         ["RPG SPAM"] = function()
@@ -682,7 +682,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "RPG Spammer"
             end
         end,
         ["RPG EH"] = function()
@@ -693,7 +693,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "RPGEnemy Health"
             end
         end,
         ["RPG DIST"] = function()
@@ -704,7 +704,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "RPG Distance"
             end
         end,
         ["FlameTT"] = function()
@@ -715,7 +715,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Flamethrower & AcidGun"
             end
         end,
         ["FlameTDIST"] = function()
@@ -726,7 +726,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Flame/Acid Distance"
             end
         end,
         ["spraytype"] = function()
@@ -737,7 +737,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Spray Type"
             end
         end,
         ["SPRAY NE"] = function()
@@ -748,7 +748,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Spray Nearest"
             end
         end,
         ["SPRAY DIST"] = function()
@@ -759,7 +759,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Spray Distance"
             end
         end,
         ["FarmMode"] = function()
@@ -770,7 +770,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Farm Mode"
             end
         end,
         ["ATMFarmPos"] = function()
@@ -781,7 +781,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "ATM Farm Position"
             end
         end,
         ["ATMREG"] = function()
@@ -913,7 +913,7 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Item Aura"
             end
         end,
         ["caura"] = function()
@@ -1601,15 +1601,246 @@ getgenv().translation = {
                     return "kill aura type"
                 end
             end,
-            [""] = function()
+            ["cashfarmdesc"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
-                    return ""
+                    return "自动农场"
                 elseif getgenv().Translate 
                 and getgenv().Translate == "Russian" then
                     return ""
                 else
-                    return ""
+                    return "Auto Farm"
+                end
+            end,
+            ["GrabAuraDesc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "activate to auto grab nearest"
+                end
+            end,
+            ["kwkdesc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "equip fists then activate"
+                end
+            end,
+            ["kadesc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "equip fists or melee item"
+                end
+            end,
+            ["killdisdesc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "kill distance"
+                end
+            end,
+            ["spunchdesc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "no delay"
+                end
+            end,
+            ["sbdesc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "activates silent bullet"
+                end
+            end,
+            ["rpgdesc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "spams rockets on nearest or selected player"
+                end
+            end,
+            ["rpghealthdesc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "health"
+                end
+            end,
+            ["rpgdisdesc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "distance"
+                end
+            end,
+            ["flametogdesc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "knocks or kills nearest"
+                end
+            end,
+            ["flamedisdesc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "distance"
+                end
+            end,
+            ["spraytypedesc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "selects spray kind"
+                end
+            end,
+            ["spraytogdesc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "pepper spray & fire extinguisher"
+                end
+            end,
+            ["spraydisdesc"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "distance"
+                end
+            end,
+            [""] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return 
+                end
+            end,
+            [""] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return 
+                end
+            end,
+            [""] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return 
+                end
+            end,
+            [""] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return 
+                end
+            end,
+            [""] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return 
+                end
+            end,
+            [""] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return 
+                end
+            end,
+            [""] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return 
                 end
             end,
         },
