@@ -1766,7 +1766,7 @@ getgenv().translation = {
                     return "distance"
                 end
             end,
-            [""] = function()
+            ["sbulletdesc"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1774,10 +1774,10 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return 
                 else
-                    return 
+                    return "activates silent bullet"
                 end
             end,
-            [""] = function()
+            ["fovradd"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1785,10 +1785,10 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return 
                 else
-                    return 
+                    return "radius"
                 end
             end,
-            [""] = function()
+            ["fovvis"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1796,7 +1796,7 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return 
                 else
-                    return 
+                    return "fov circle visibility"
                 end
             end,
             [""] = function()
