@@ -135,7 +135,7 @@ getgenv().translation = {
         end,
     },
     ["Elements"] = {
-        ["TPWalk"] = function()
+        ["M1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "TP步行"
@@ -146,7 +146,7 @@ getgenv().translation = {
                 return "TPWalk"
             end
         end,
-        ["TPWalk Mode"] = function()
+        ["M2"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "TP步行模式"
@@ -157,7 +157,7 @@ getgenv().translation = {
                 return "TPWalk Mode"
             end
         end,
-        ["TPWalk Speed"] = function()
+        ["M3"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "速度"
@@ -168,7 +168,7 @@ getgenv().translation = {
                 return "TPWalk Speed"
             end
         end,
-        ["AimAssist"] = function()
+        ["M4"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "自瞄范围"
@@ -179,7 +179,7 @@ getgenv().translation = {
                 return "AimAssist"
             end
         end,
-        ["Coffee Speed"] = function()
+        ["M5"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "咖啡速度"
@@ -190,7 +190,7 @@ getgenv().translation = {
                 return "Coffee Speed"
             end
         end,
-        ["FOV"] = function()
+        ["M6"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "视角范围"
@@ -201,7 +201,7 @@ getgenv().translation = {
                 return "FOV"
             end
         end,
-        ["JumpPower"] = function()
+        ["M7"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "跳跃高度"
@@ -212,7 +212,7 @@ getgenv().translation = {
                 return "JumpPower"
             end
         end,
-        ["Use JumpPower"] = function()
+        ["M8"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "使用跳跃高度"
@@ -223,7 +223,7 @@ getgenv().translation = {
                 return "Use JumpPower"
             end
         end,
-        ["Infinite Jump"] = function()
+        ["M9"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "无限跳跃"
@@ -234,7 +234,7 @@ getgenv().translation = {
                 return "Infinite Jump"
             end
         end,
-        ["AutoMask"] = function()
+        ["M10"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "自动带口罩"
@@ -245,7 +245,7 @@ getgenv().translation = {
                 return "Auto Mask"
             end
         end,
-        ["Invisible"] = function()
+        ["M11"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "隐身"
@@ -256,7 +256,7 @@ getgenv().translation = {
                 return "Invisible"
             end
         end,
-        ["ClownHat"] = function()
+        ["M12"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "装扮成小丑"
@@ -267,7 +267,7 @@ getgenv().translation = {
                 return "Clown Hat"
             end
         end,
-        ["Police Uniform"] = function()
+        ["M13"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "装扮成警察"
@@ -278,7 +278,7 @@ getgenv().translation = {
                 return "Police Uniform"
             end
         end,
-        ["Animations"] = function()
+        ["M14"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "动作"
@@ -289,7 +289,7 @@ getgenv().translation = {
                 return "Animations"
             end
         end,
-        ["Kill Position"] = function()
+        ["P1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "击杀位置"
@@ -300,7 +300,7 @@ getgenv().translation = {
                 return "Kill Position"
             end
         end,
-        ["Select Player1"] = function()
+        ["P2"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "选择玩家"
@@ -311,7 +311,7 @@ getgenv().translation = {
                 return "Select Player"
             end
         end,
-        ["TP"] = function()
+        ["P3"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "传送到被选择玩家"
@@ -322,7 +322,7 @@ getgenv().translation = {
                 return "TP"
             end
         end,
-        ["Spectate Player"] = function()
+        ["P4"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "旁观玩家"
@@ -333,7 +333,7 @@ getgenv().translation = {
                 return "Spectate Player"
             end
         end,
-        ["Auto TP"] = function()
+        ["P5"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "自动传送"
@@ -344,7 +344,7 @@ getgenv().translation = {
                 return "Auto TP"
             end
         end,
-        ["Auto Kill"] = function()
+        ["P6"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "自动击杀"
@@ -355,7 +355,7 @@ getgenv().translation = {
                 return "Auto Kill"
             end
         end,
-        ["Z Position"] = function()
+        ["P7"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "Z位置"
@@ -366,7 +366,7 @@ getgenv().translation = {
                 return "Z Position"
             end
         end,
-        ["Y Position"] = function()
+        ["P8"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "Y位置"
@@ -377,7 +377,7 @@ getgenv().translation = {
                 return "Y Position"
             end
         end,
-        ["Loopbring"] = function()
+        ["P9"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "循环带来玩家"
@@ -388,7 +388,7 @@ getgenv().translation = {
                 return "Loopbring"
             end
         end,
-        ["Select Mode1"] = function()
+        ["P10"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "选择模式"
@@ -399,7 +399,7 @@ getgenv().translation = {
                 return "Select Mode"
             end
         end,
-        ["Auto Kill Players"] = function()
+        ["P11"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "自动杀死玩家"
@@ -410,7 +410,7 @@ getgenv().translation = {
                 return "Auto Kill Players"
             end
         end,
-        ["Distance 1"] = function()
+        ["P12"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "间隔"
@@ -421,7 +421,7 @@ getgenv().translation = {
                 return "Distance"
             end
         end,
-        ["Damage Type"] = function()
+        ["R1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "伤害类型"
@@ -432,7 +432,7 @@ getgenv().translation = {
                 return "Damage Type"
             end
         end,
-        ["Kill Aura"] = function()
+        ["R2"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "杀戮光环"
@@ -443,7 +443,7 @@ getgenv().translation = {
                 return "Kill Aura"
             end
         end,
-        ["Distance 2"] = function()
+        ["R3"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "距离"
@@ -454,7 +454,7 @@ getgenv().translation = {
                 return "Distance"
             end
         end,
-        ["killWKnocked"] = function()
+        ["R4"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "被击倒时有击杀光环"
@@ -465,7 +465,7 @@ getgenv().translation = {
                 return "Kill While Knocked"
             end
         end,
-        ["Super Punch"] = function()
+        ["R5"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "超级冲击"
@@ -476,7 +476,7 @@ getgenv().translation = {
                 return "Super Punch"
             end
         end,
-        ["Stomp Aura"] = function()
+        ["R6"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "杀死光环"
@@ -487,7 +487,7 @@ getgenv().translation = {
                 return "Stomp Aura"
             end
         end,
-        ["Grab Aura"] = function()
+        ["R7"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "抓住光环"
@@ -498,7 +498,7 @@ getgenv().translation = {
                 return "Grab Aura"
             end
         end,
-        ["Select Mode2"] = function()
+        ["R8"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "选择模式"
@@ -509,7 +509,7 @@ getgenv().translation = {
                 return "Select Mode"
             end
         end,
-        ["Select Player2"] = function()
+        ["R9"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "选择玩家"
@@ -520,7 +520,7 @@ getgenv().translation = {
                 return "Select Player"
             end
         end,
-        ["Spam Message"] = function()
+        ["R10"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "轰炸内容"
@@ -531,7 +531,7 @@ getgenv().translation = {
                 return "Spam Message"
             end
         end,
-        ["Spam Messag&Call"] = function()
+        ["R11"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "电话轰炸"
@@ -542,7 +542,7 @@ getgenv().translation = {
                 return "Spam Call/Msg"
             end
         end,
-        ["Anti Grab"] = function()
+        ["R12"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "防抓住"
@@ -553,7 +553,7 @@ getgenv().translation = {
                 return "Anti Grab"
             end
         end,
-        ["Anti Stun"] = function()
+        ["R13"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "防打晕"
@@ -564,7 +564,7 @@ getgenv().translation = {
                 return "Anti Stun"
             end
         end,
-        ["Anti Ragdoll"] = function()
+        ["R14"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "防布娃娃"
@@ -575,7 +575,7 @@ getgenv().translation = {
                 return "Anti Ragdoll"
             end
         end,
-        ["Silent Block"] = function()
+        ["R15"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "自动隐藏"
@@ -586,7 +586,7 @@ getgenv().translation = {
                 return "Silent Block"
             end
         end,
-        ["DestroyVeh"] = function()
+        ["R16"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "摧毁最近的车辆"
@@ -597,7 +597,7 @@ getgenv().translation = {
                 return "Destroy Nearest Vehicle [Fists]"
             end
         end,
-        ["HitPart"] = function()
+        ["S1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "击打范围"
@@ -608,7 +608,7 @@ getgenv().translation = {
                 return "HitPart"
             end
         end,
-        ["SpammerMde"] = function()
+        ["S2"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "选择模式"
@@ -619,7 +619,7 @@ getgenv().translation = {
                 return "Spammer Mode"
             end
         end,
-        ["Select Player3"] = function()
+        ["S3"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "选择玩家"
@@ -630,7 +630,7 @@ getgenv().translation = {
                 return "Select Player"
             end
         end,
-        ["Silent Bullet"] = function()
+        ["S4"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "静默子弹"
@@ -641,7 +641,7 @@ getgenv().translation = {
                 return "Silent Bullet"
             end
         end,
-        ["FOV CV"] = function()
+        ["S5"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "可见视野范围"
@@ -652,7 +652,7 @@ getgenv().translation = {
                 return "FOV Circle Visible"
             end
         end,
-        ["FOV RAD"] = function()
+        ["S6"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "视野半径"
@@ -663,7 +663,7 @@ getgenv().translation = {
                 return "FOV Radius"
             end
         end,
-        ["FOV CC"] = function()
+        ["S7"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "FOV的圆圈颜色"
@@ -674,7 +674,7 @@ getgenv().translation = {
                 return "FOV Circle Color"
             end
         end,
-        ["RPG SPAM"] = function()
+        ["S8"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "RPG轰炸"
@@ -685,7 +685,7 @@ getgenv().translation = {
                 return "RPG Spammer"
             end
         end,
-        ["RPG EH"] = function()
+        ["S9"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "RPG最低攻击敌人的生命值"
@@ -696,7 +696,7 @@ getgenv().translation = {
                 return "RPGEnemy Health"
             end
         end,
-        ["RPG DIST"] = function()
+        ["S10"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "RPG攻击范围"
@@ -707,7 +707,7 @@ getgenv().translation = {
                 return "RPG Distance"
             end
         end,
-        ["FlameTT"] = function()
+        ["S11"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "火焰喷射器和酸枪攻击"
@@ -718,7 +718,7 @@ getgenv().translation = {
                 return "Flamethrower & AcidGun"
             end
         end,
-        ["FlameTDIST"] = function()
+        ["S12"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "火焰/酸液距离"
@@ -729,7 +729,7 @@ getgenv().translation = {
                 return "Flame/Acid Distance"
             end
         end,
-        ["spraytype"] = function()
+        ["S13"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "喷雾类型"
@@ -740,7 +740,7 @@ getgenv().translation = {
                 return "Spray Type"
             end
         end,
-        ["SPRAY NE"] = function()
+        ["S14"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "喷洒最近的玩家"
@@ -751,7 +751,7 @@ getgenv().translation = {
                 return "Spray Nearest"
             end
         end,
-        ["SPRAY DIST"] = function()
+        ["S15"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "喷洒范围"
@@ -762,7 +762,7 @@ getgenv().translation = {
                 return "Spray Distance"
             end
         end,
-        ["FarmMode"] = function()
+        ["C1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "农场模式"
@@ -773,7 +773,7 @@ getgenv().translation = {
                 return "Farm Mode"
             end
         end,
-        ["ATMFarmPos"] = function()
+        ["C2"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "ATM 农场位置"
@@ -784,7 +784,7 @@ getgenv().translation = {
                 return "ATM Farm Position"
             end
         end,
-        ["ATMREG"] = function()
+        ["C3"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "ATM/收银机农场"
@@ -792,10 +792,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "ATM/CashRegister Farm"
             end
         end,
-        ["bank"] = function()
+        ["C4"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "银行农场"
@@ -803,10 +803,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Bank Farm"
             end
         end,
-        ["cshfarm"] = function()
+        ["C5"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "现金农场"
@@ -814,10 +814,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Cash Farm"
             end
         end,
-        ["slotfarm"] = function()
+        ["C6"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "娃娃机农场"
@@ -825,10 +825,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Slotmachine Farm"
             end
         end,
-        ["jewlfarmmode"] = function()
+        ["C7"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "珠宝店农场模式"
@@ -836,10 +836,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "JewelryCase Farm Mode"
             end
         end,
-        ["jewlfarm"] = function()
+        ["C8"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "珠宝农场"
@@ -847,10 +847,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "JewelryCase Farm"
             end
         end,
-        ["treasurefarm"] = function()
+        ["C9"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "宝藏农场"
@@ -858,10 +858,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Treasure Farm"
             end
         end,
-        ["dbellfarm"] = function()
+        ["C10"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "哑铃农场"
@@ -869,10 +869,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Dumbell Farm"
             end
         end,
-        ["onearest"] = function()
+        ["C11"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "开启最近的任何东西"
@@ -880,10 +880,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Open Nearest"
             end
         end,
-        ["sellmode"] = function()
+        ["C12"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "销售模式"
@@ -891,10 +891,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Sell Mode"
             end
         end,
-        ["bmsell"] = function()
+        ["C13"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "黑市出售"
@@ -902,10 +902,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "BlackMarket Sell"
             end
         end,
-        ["iaura"] = function()
+        ["C14"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "物品光环"
@@ -916,7 +916,7 @@ getgenv().translation = {
                 return "Item Aura"
             end
         end,
-        ["caura"] = function()
+        ["C15"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "现金光环"
@@ -924,10 +924,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Cash Aura"
             end
         end,
-        ["ctruckcash"] = function()
+        ["C16"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "收取运钞车的现金"
@@ -935,10 +935,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Collect Truck Cash"
             end
         end,
-        ["dnATM"] = function()
+        ["C17"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "摧毁最近的 ATM"
@@ -946,10 +946,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Destroy Nearest ATM"
             end
         end,
-        ["ACInv"] = function()
+        ["I1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "自动清理垃圾库存"
@@ -957,10 +957,10 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Auto Clean Inventory"
             end
         end,
-        ["dlitems"] = function()
+        ["I2"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
                 return "自动删除锁定的项目"
@@ -968,249 +968,293 @@ getgenv().translation = {
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Auto Delete Locked Items"
             end
         end,
-        ["treasureitems"] = function()
+        ["I3"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "宝藏物品"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Treasure Items"
             end
         end,
-        ["compbox"] = function()
+        ["I4"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "元件盒"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Component Boxes"
             end
         end,
-        ["mprinter"] = function()
+        ["I5"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "印钞机"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Money Printer"
             end
         end,
-        ["gguns"] = function()
+        ["I6"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "金枪"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Gold Guns"
             end
         end,
-        ["presnluck"] = function()
+        ["I7"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "礼物和幸运方块"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Presents & Lucky Blocks"
             end
         end,
-        ["rgems"] = function()
+        ["I8"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "稀有宝石"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Rare Gems"
             end
         end,
-        ["rareitems"] = function()
+        ["I9"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "最稀有的物品"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Rarest Items"
             end
         end,
-        ["rcard"] = function()
+        ["I10"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "红卡"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Red Card"
             end
         end,
-        ["bcard"] = function()
+        ["I11"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "蓝卡"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Blue Card"
             end
         end,
-        [""] = function()
+        ["I12"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "金条"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Gold Bar"
             end
         end,
-        [""] = function()
+        ["I13"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "车钥匙"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Vehicle Keys"
             end
         end,
-        [""] = function()
+        ["B1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "选择购买物品"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Select Item"
             end
         end,
-        [""] = function()
+        ["B2"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "购买提示"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Buy Prompt"
             end
         end,
-        [""] = function()
+        ["T1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "传送地点"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Teleport"
             end
         end,
-        [""] = function()
+        ["T2"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "同一位置保持传送"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Teleport Spawn & Old CFrame"
             end
         end,
-        [""] = function()
+        ["T3"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "传送模式"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Tween Style"
             end
         end,
-        [""] = function()
+        ["T4"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "传送速度"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Tween Speed"
             end
         end,
-        [""] = function()
+        ["T5"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "随机传送"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Teleport Random"
             end
         end,
-        [""] = function()
+        ["E1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "名字与健康"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Names & Health"
             end
         end,
-        [""] = function()
+        ["E2"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "天空颜色"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Sky Color"
             end
         end,
-        [""] = function()
+        ["E3"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "彩虹天空"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
-                return ""
+                return "Rainbow Sky"
             end
         end,
-        [""] = function()
+        ["BT1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "选择皮肤"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
+                return "Select Skin"
+            end
+        end,
+        ["BT2"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "飞"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
                 return ""
+            else
+                return "Fly"
+            end
+        end,
+        ["BT3"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "飞行速度"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Fly Speed"
+            end
+        end,
+        ["BT4"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "自动农场弹药箱"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Auto Farm Ammo Box"
+            end
+        end,
+        ["BT5"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "仅限头像"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "headshots only"
             end
         end,
         [""] = function()
@@ -1227,7 +1271,7 @@ getgenv().translation = {
     },
     ["Other Strings"] = {
         ["desc/sec"] = {
-            ["Player Settings"] = function()
+            ["MD1"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return "玩家设置"
@@ -1238,7 +1282,7 @@ getgenv().translation = {
                     return "Player Settings"
                 end
             end,
-            ["Clothing & Anim"] = function()
+            ["MD2"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return "服装和动画"
@@ -1249,95 +1293,7 @@ getgenv().translation = {
                     return "Clothing & Animations"
                 end
             end,
-            ["Player Teleport"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return "玩家传送"
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "Player Teleport"
-                end
-            end,
-            ["Player Bring"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return "带来玩家"
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "Player Bring"
-                end
-            end,
-            ["Players Kill"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return "击杀玩家"
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "Players Kill"
-                end
-            end,
-            ["Aura Settings"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return "伤害类型与其他类型不同 例如 如果您想用刀使用杀戮光环 您应该使用近战巨擘挥击或近战攻击"
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "Damage types are different than others for example if you want to use kill aura with a knife you would use meleemegaswing or meleeswing"
-                end
-            end,
-            ["Aura Settings Title"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return "光环设置"
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "Aura Settings"
-                end
-            end,
-            ["Phone Spammer"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return "电话垃圾邮件发送者"
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "Phone Spammer"
-                end
-            end,
-            ["Other Settings Title"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return "其他设置"
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "Other Settings"
-                end
-            end,
-            ["Other Settings"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return "当开启自动隐藏后 手动踩踏不会有用 防抓住在自动抓取里不会有用"
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "manual stomps do not work while silent block is activated and anti grab doesnt work on auto grabbers"
-                end
-            end,
-            ["TPWalk Desc"] = function()
+            ["MD3"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return "更改 TP步行模式"
@@ -1348,7 +1304,7 @@ getgenv().translation = {
                     return "Changes TPWalk Mode"
                 end
             end,
-            ["Invis Desc"] = function()
+            ["MD4"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return "也可以用键盘 [X] 键开启"
@@ -1359,7 +1315,7 @@ getgenv().translation = {
                     return "ativates invisible keybind [X] now supports infinite jump"
                 end
             end,
-            ["Anim Desc"] = function()
+            ["MD5"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return "更改动作"
@@ -1370,7 +1326,18 @@ getgenv().translation = {
                     return "changes animation"
                 end
             end,
-            ["Kill Pos Desc"] = function()
+            ["PD1"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "玩家传送"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Player Teleport"
+                end
+            end,
+            ["PD2"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1381,40 +1348,7 @@ getgenv().translation = {
                     return "selects kill position"
                 end
             end,
-            ["Stomp Aura Desc"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return ""
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "activate to auto stomp nearest"
-                end
-            end,
-            ["TP Desc"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return ""
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "teleport to selected player"
-                end
-            end,
-            ["Spectate Desc"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return ""
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "spectates"
-                end
-            end,
-            ["Select Player Desc"] = function()
+            ["PD3"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1425,7 +1359,40 @@ getgenv().translation = {
                     return "select"
                 end
             end,
-            ["Kill Plr Desc"] = function()
+            ["PD4"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "带来玩家"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Player Bring"
+                end
+            end,
+            ["PD5"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return ""
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "teleport to selected player"
+                end
+            end,
+            ["PD6"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return ""
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "spectates"
+                end
+            end,
+            ["PD7"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1436,7 +1403,7 @@ getgenv().translation = {
                     return "kills selected player"
                 end
             end,
-            ["Bring Plr Desc"] = function()
+            ["PD8"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1447,7 +1414,7 @@ getgenv().translation = {
                     return "brings player"
                 end
             end,
-            ["Kill Mode Desc"] = function()
+            ["PD9"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1458,7 +1425,7 @@ getgenv().translation = {
                     return "selects kill mode"
                 end
             end,
-            ["AK Players Desc"] = function()
+            ["PD10"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1469,7 +1436,95 @@ getgenv().translation = {
                     return "auto kills all or nearest"
                 end
             end,
-            ["DestroyVeh Desc"] = function()
+            ["PD11"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "击杀玩家"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Players Kill"
+                end
+            end,
+            ["PD12"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return ""
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "distance for nearest mode"
+                end
+            end,
+            ["RD1"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "伤害类型与其他类型不同 例如 如果您想用刀使用杀戮光环 您应该使用近战巨擘挥击或近战攻击"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Damage types are different than others for example if you want to use kill aura with a knife you would use meleemegaswing or meleeswing"
+                end
+            end,
+            ["RD2"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "光环设置"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Aura Settings"
+                end
+            end,
+            ["RD3"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "电话垃圾邮件发送者"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Phone Spammer"
+                end
+            end,
+            ["RD4"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "其他设置"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Other Settings"
+                end
+            end,
+            ["RD5"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "当开启自动隐藏后 手动踩踏不会有用 防抓住在自动抓取里不会有用"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "manual stomps do not work while silent block is activated and anti grab doesnt work on auto grabbers"
+                end
+            end,
+            ["RD6"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return ""
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "activate to auto stomp nearest"
+                end
+            end,
+            ["RD7"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return "开启后要装备拳头以摧毁最近的载具"
@@ -1480,7 +1535,7 @@ getgenv().translation = {
                     return "activate and equip fists to destroy nearest vehicle"
                 end
             end,
-            ["Silent Block Desc"] = function()
+            ["RD13"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1491,7 +1546,7 @@ getgenv().translation = {
                     return "auto blocks and hides animation"
                 end
             end,
-            ["Anti Stun Desc"] = function()
+            ["RD14"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1502,7 +1557,7 @@ getgenv().translation = {
                     return "no stun"
                 end
             end,
-            ["Anti Grab Desc"] = function()
+            ["RD15"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1513,7 +1568,7 @@ getgenv().translation = {
                     return "auto drops when grabbed"
                 end
             end,
-            ["Anti Ragdoll Desc"] = function()
+            ["RD16"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1524,7 +1579,7 @@ getgenv().translation = {
                     return "no ragdoll"
                 end
             end,
-            ["Spam Messag/Call Desc"] = function()
+            ["RD17"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1535,7 +1590,7 @@ getgenv().translation = {
                     return "spam calls & message"
                 end
             end,
-            ["msgspamdesc"] = function()
+            ["RD18"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1546,7 +1601,7 @@ getgenv().translation = {
                     return "message to spam or random"
                 end
             end,
-            ["Select Mode2 Desc"] = function()
+            ["RD19"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return ""
@@ -1557,62 +1612,7 @@ getgenv().translation = {
                     return "mode for phone spammer"
                 end
             end,
-            ["OPSDESC"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return "OP功能"
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "OP Spammers"
-                end
-            end,
-            ["SBDesc"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return "静默子弹和视野"
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "Silent Bullet & FOV"
-                end
-            end,
-            ["Magick Desc1"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return "菜单"
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "Main"
-                end
-            end,
-            ["dmgtypedesc"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return ""
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "kill aura type"
-                end
-            end,
-            ["cashfarmdesc"] = function()
-                if getgenv().Translate 
-                and getgenv().Translate == "Chinese" then
-                    return "自动农场"
-                elseif getgenv().Translate 
-                and getgenv().Translate == "Russian" then
-                    return ""
-                else
-                    return "Auto Farm"
-                end
-            end,
-            ["GrabAuraDesc"] = function()
+            ["RD8"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1623,7 +1623,7 @@ getgenv().translation = {
                     return "activate to auto grab nearest"
                 end
             end,
-            ["kwkdesc"] = function()
+            ["RD9"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1634,7 +1634,7 @@ getgenv().translation = {
                     return "equip fists then activate"
                 end
             end,
-            ["kadesc"] = function()
+            ["RD10"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1645,7 +1645,7 @@ getgenv().translation = {
                     return "equip fists or melee item"
                 end
             end,
-            ["killdisdesc"] = function()
+            ["RD11"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1656,7 +1656,7 @@ getgenv().translation = {
                     return "kill distance"
                 end
             end,
-            ["spunchdesc"] = function()
+            ["RD12"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1667,7 +1667,51 @@ getgenv().translation = {
                     return "no delay"
                 end
             end,
-            ["sbdesc"] = function()
+            ["RD20"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return ""
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "kill aura type"
+                end
+            end,
+            ["SD1"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "OP功能"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "OP Spammers"
+                end
+            end,
+            ["SD2"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "静默子弹和视野"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Silent Bullet & FOV"
+                end
+            end,
+            ["SD3"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "菜单"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Main"
+                end
+            end,
+            ["SD4"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1678,7 +1722,7 @@ getgenv().translation = {
                     return "activates silent bullet"
                 end
             end,
-            ["rpgdesc"] = function()
+            ["SD5"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1689,7 +1733,7 @@ getgenv().translation = {
                     return "spams rockets on nearest or selected player"
                 end
             end,
-            ["rpghealthdesc"] = function()
+            ["SD6"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1700,7 +1744,7 @@ getgenv().translation = {
                     return "health"
                 end
             end,
-            ["rpgdisdesc"] = function()
+            ["SD7"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1711,7 +1755,7 @@ getgenv().translation = {
                     return "distance"
                 end
             end,
-            ["flametogdesc"] = function()
+            ["SD8"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1722,7 +1766,7 @@ getgenv().translation = {
                     return "knocks or kills nearest"
                 end
             end,
-            ["flamedisdesc"] = function()
+            ["SD9"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1733,7 +1777,7 @@ getgenv().translation = {
                     return "distance"
                 end
             end,
-            ["spraytypedesc"] = function()
+            ["SD10"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1744,7 +1788,7 @@ getgenv().translation = {
                     return "selects spray kind"
                 end
             end,
-            ["spraytogdesc"] = function()
+            ["SD11"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1755,7 +1799,7 @@ getgenv().translation = {
                     return "pepper spray & fire extinguisher"
                 end
             end,
-            ["spraydisdesc"] = function()
+            ["SD12"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1766,7 +1810,7 @@ getgenv().translation = {
                     return "distance"
                 end
             end,
-            ["sbulletdesc"] = function()
+            ["SD13"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1777,7 +1821,7 @@ getgenv().translation = {
                     return "activates silent bullet"
                 end
             end,
-            ["fovradd"] = function()
+            ["SD14"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1788,7 +1832,7 @@ getgenv().translation = {
                     return "radius"
                 end
             end,
-            ["fovvis"] = function()
+            ["SD15"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1799,7 +1843,18 @@ getgenv().translation = {
                     return "fov circle visibility"
                 end
             end,
-            [""] = function()
+            ["CD1"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "自动农场"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return ""
+                else
+                    return "Auto Farm"
+                end
+            end,
+            ["CD2"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
                     return 
@@ -1807,7 +1862,403 @@ getgenv().translation = {
                 and getgenv().Translate == "Russian" then
                     return 
                 else
+                    return "mode for atm & bank"
+                end
+            end,
+            ["CD3"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
                     return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "changes position"
+                end
+            end,
+            ["CD4"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms atms & cashregisters"
+                end
+            end,
+            ["CD5"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms bank"
+                end
+            end,
+            ["CD6"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms cash +$300"
+                end
+            end,
+            ["CD7"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms slotmachine on reset"
+                end
+            end,
+            ["CD8"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "mode for jewelry case farm"
+                end
+            end,
+            ["CD9"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms all gems"
+                end
+            end,
+            ["CD10"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms treasure equip map"
+                end
+            end,
+            ["CD11"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms weight"
+                end
+            end,
+            ["CD12"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "其他"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "Other"
+                end
+            end,
+            ["CD13"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "opens bank/safes/chests"
+                end
+            end,
+            ["CD14"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "mode for blackmarket sell"
+                end
+            end,
+            ["CD15"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "sells items"
+                end
+            end,
+            ["CD16"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "collects cash when near"
+                end
+            end,
+            ["CD17"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "collects good items only"
+                end
+            end,
+            ["CD18"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "collects truckcash when near"
+                end
+            end,
+            ["CD19"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "equip fists near atm"
+                end
+            end,
+            ["ID1"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "destroys all trash items"
+                end
+            end,
+            ["ID2"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "destroys items in locked rooms. afk farm"
+                end
+            end,
+            ["ID3"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms all treasure items"
+                end
+            end,
+            ["ID4"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms all component boxes"
+                end
+            end,
+            ["ID5"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms money printer"
+                end
+            end,
+            ["ID6"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms gold guns"
+                end
+            end,
+            ["ID7"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms presents & lucky blocks"
+                end
+            end,
+            ["ID8"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms all rare gems"
+                end
+            end,
+            ["ID9"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms all rare items"
+                end
+            end,
+            ["ID10"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms military keycard"
+                end
+            end,
+            ["ID11"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms police keycard"
+                end
+            end,
+            ["ID12"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms all gold bars"
+                end
+            end,
+            ["ID13"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms all vehicle type keys"
+                end
+            end,
+            ["BUD1"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "shows buy gui"
+                end
+            end,
+            ["TD1"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "传送到"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "Goto"
+                end
+            end,
+            ["ED1"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "透视"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "ESP"
+                end
+            end,
+            ["ED2"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "天空设置"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "Sky Settings"
+                end
+            end,
+            ["BTD1"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "ativates fly"
+                end
+            end,
+            ["BTD2"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return "装备枪 - 寻找所有弹药箱"
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "equip gun - farms all ammo boxes"
                 end
             end,
             [""] = function()
