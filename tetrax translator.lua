@@ -2296,6 +2296,30 @@ getgenv().translation = {
             end,
         },
         ["dropdowns"] = {
+            ["SB"] = {
+                ["Player"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "玩家"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "Player"
+                    end
+                end,
+                ["Nearest"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "最近"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "Nearest"
+                    end
+                end,
+            },
             ["sellModes"] = {
                 ["equipSell"] = function()
                     if getgenv().Translate 
@@ -2418,7 +2442,7 @@ getgenv().translation = {
                 ["custom"] = function()
                     if getgenv().Translate 
                     and getgenv().Translate == "Chinese" then
-                        return ""
+                        return "风俗"
                     elseif getgenv().Translate 
                     and getgenv().Translate == "Russian" then
                         return ""
