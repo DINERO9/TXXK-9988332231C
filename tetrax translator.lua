@@ -2296,6 +2296,54 @@ getgenv().translation = {
             end,
         },
         ["dropdowns"] = {
+            ["ATMPOS"] = {
+                ["hidden"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "隐藏"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return 
+                    else
+                        return "hidden"
+                    end
+                end,
+                ["unhidden"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "取消隐藏"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return 
+                    else
+                        return "unhidden"
+                    end
+                end,
+            },
+            ["ATM"] = {
+                ["AFK"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "挂机"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return 
+                    else
+                        return "AFK"
+                    end
+                end,
+                ["REG"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "活动"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return 
+                    else
+                        return "Regular"
+                    end
+                end,
+            },
             ["SB"] = {
                 ["Player"] = function()
                     if getgenv().Translate 
