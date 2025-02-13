@@ -1257,15 +1257,70 @@ getgenv().translation = {
                 return "headshots only"
             end
         end,
-        [""] = function()
+        ["U1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return ""
+                return "选择主题"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
+                return "Select Theme"
+            end
+        end,
+        ["U2"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "UI 发光颜色"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
                 return ""
+            else
+                return "UI Glow Color"
+            end
+        end,
+        ["U3"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "背景颜色"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Background Color"
+            end
+        end,
+        ["U4"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "轮廓颜色"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Outline Color"
+            end
+        end,
+        ["U5"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "文字颜色"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Text Color"
+            end
+        end,
+        ["U6"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "占位符的文本颜色"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Placeholder Text Color"
             end
         end,
     },
@@ -2261,26 +2316,26 @@ getgenv().translation = {
                     return "equip gun - farms all ammo boxes"
                 end
             end,
-            [""] = function()
+            ["OD1"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
-                    return 
+                    return "在此选项卡中 您将找到我制作的脚本 如果有人想要制作特定的脚本 则可以完成 但它不是免费的".."\n".."如果脚本被隐藏和锁定 则表示该脚本当前已关闭"
                 elseif getgenv().Translate 
                 and getgenv().Translate == "Russian" then
                     return 
                 else
-                    return 
+                    return "inside this tab you will find scripts made by me if anyone wants a specific script made it can be done but it will not be free.".."\n".."if a script is hidden and locked it means the script is currently down".."\n".."".."\n".."[WAVE USERS] 4A1D34 might not work for yall"
                 end
             end,
-            [""] = function()
+            ["OD2"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
-                    return 
+                    return "脚本"
                 elseif getgenv().Translate 
                 and getgenv().Translate == "Russian" then
                     return 
                 else
-                    return 
+                    return "Scripts"
                 end
             end,
             [""] = function()
