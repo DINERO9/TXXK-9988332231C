@@ -2296,6 +2296,30 @@ getgenv().translation = {
             end,
         },
         ["dropdowns"] = {
+            ["sellModes"] = {
+                ["equipSell"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "装备销售"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "EquipSell"
+                    end
+                end,
+                ["sellAll"] = function()
+                    if getgenv().Translate 
+                    and getgenv().Translate == "Chinese" then
+                        return "全部卖掉"
+                    elseif getgenv().Translate 
+                    and getgenv().Translate == "Russian" then
+                        return ""
+                    else
+                        return "SellAll"
+                    end
+                end,
+            },
             ["TPWalk Modes"] = {
                 ["MoveDirection"] = function()
                     if getgenv().Translate 
