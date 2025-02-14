@@ -1,4 +1,3 @@
-getgenv().Translate = "Chinese"
 getgenv().translation = {
     ["TABS"] = {
         ["Main"] = function()
