@@ -2626,25 +2626,5 @@ getgenv().translation = {
 }
 
 
-for l,v in next,getgenv().translation do
-    if typeof(v) == "table" then
-        for x,c in next,v do
-            if typeof(c) == "function" then
-                hookfunction(c, function()
-                    return "nil"
-                end)
-            end
-            if typeof(c) == "table" then
-                for s,d in next,c do
-                   if typeof(d) == "function" then
-                        hookfunction(d, function()
-                            return "nil"
-                        end)
-                    end
-                end
-            end
-        end
-    end
-end
 
 
