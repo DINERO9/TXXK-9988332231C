@@ -907,23 +907,23 @@ getgenv().translation = {
         ["C14"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return "物品光环"
-            elseif getgenv().Translate 
-            and getgenv().Translate == "Russian" then
-                return ""
-            else
-                return "Item Aura"
-            end
-        end,
-        ["C15"] = function()
-            if getgenv().Translate 
-            and getgenv().Translate == "Chinese" then
                 return "现金光环"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return ""
             else
                 return "Cash Aura"
+            end
+        end,
+        ["C15"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "物品光环"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Item Aura"
             end
         end,
         ["C16"] = function()
