@@ -948,6 +948,28 @@ getgenv().translation = {
                 return "Destroy Nearest ATM"
             end
         end,
+        ["C18"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "选择工艺品"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Select Craft Item"
+            end
+        end,
+        ["C19"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "自动工艺"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "Auto Craft"
+            end
+        end,
         ["I1"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
@@ -1067,6 +1089,17 @@ getgenv().translation = {
                 return ""
             else
                 return "Blue Card"
+            end
+        end,
+        ["I14"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return 
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return 
+            else
+                return "Airdrop/Signal"
             end
         end,
         ["I12"] = function()
@@ -1254,6 +1287,50 @@ getgenv().translation = {
                 return ""
             else
                 return "headshots only"
+            end
+        end,
+        ["BT6"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "自动盔甲(防死)"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "auto armor"
+            end
+        end,
+        ["BT7"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "防虚空"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "anti void"
+            end
+        end,
+        ["BT8"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "不会坐下"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "anti sit"
+            end
+        end,
+        ["BT9"] = function()
+            if getgenv().Translate 
+            and getgenv().Translate == "Chinese" then
+                return "储物柜"
+            elseif getgenv().Translate 
+            and getgenv().Translate == "Russian" then
+                return ""
+            else
+                return "locker"
             end
         end,
         ["U1"] = function()
@@ -2106,6 +2183,28 @@ getgenv().translation = {
                     return "equip fists near atm"
                 end
             end,
+            ["CD20"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "select item"
+                end
+            end,
+            ["CD21"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "autocrafts selected item"
+                end
+            end,
             ["ID1"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
@@ -2249,6 +2348,17 @@ getgenv().translation = {
                     return "farms all vehicle type keys"
                 end
             end,
+            ["ID14"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "farms airdrops/signals"
+                end
+            end,
             ["BUD1"] = function()
                 if getgenv().Translate 
                 and getgenv().Translate == "Chinese" then
@@ -2313,6 +2423,28 @@ getgenv().translation = {
                     return 
                 else
                     return "equip gun - farms all ammo boxes"
+                end
+            end,
+            ["BTD3"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return 
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "stash items"
+                end
+            end,
+            ["BTD4"] = function()
+                if getgenv().Translate 
+                and getgenv().Translate == "Chinese" then
+                    return
+                elseif getgenv().Translate 
+                and getgenv().Translate == "Russian" then
+                    return 
+                else
+                    return "testing - no equip"
                 end
             end,
             ["OD1"] = function()
