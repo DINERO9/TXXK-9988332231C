@@ -1094,7 +1094,7 @@ getgenv().translation = {
         ["I14"] = function()
             if getgenv().Translate 
             and getgenv().Translate == "Chinese" then
-                return 
+                return "空投"
             elseif getgenv().Translate 
             and getgenv().Translate == "Russian" then
                 return 
